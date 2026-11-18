@@ -1,0 +1,39 @@
+[
+  {
+    "action": "start",
+    "area": "server",
+    "details": {
+      "dist": "/Users/alexandrcherenkov/MyAiWorkspace/BunnyHops-v1.2.1/server/dist",
+      "port": 8123,
+      "version": "1.2.1"
+    },
+    "ts": 1795043962
+  },
+  {
+    "action": "GET /api/eyes",
+    "area": "api",
+    "details": {
+      "ms": 1,
+      "status": 200
+    },
+    "ts": 1795043969
+  },
+  {
+    "action": "POST /screenshot",
+    "area": "api",
+    "details": {
+      "ms": 3379,
+      "status": 502
+    },
+    "ts": 1795043972
+  },
+  {
+    "action": "GET /api/version",
+    "area": "api",
+    "details": {
+      "ms": 0,
+      "status": 200
+    },
+    "ts": 1795043978
+  }
+]
